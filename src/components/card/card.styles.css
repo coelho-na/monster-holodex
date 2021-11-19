@@ -6,6 +6,7 @@
   border-radius: 5px;
   padding: 25px;
   cursor: pointer;
+  align-items: center;
   -moz-osx-font-smoothing: grayscale;
   backface-visibility: hidden;
   transform: translateZ(0);
@@ -14,4 +15,9 @@
 
 .card-container:hover {
   transform: scale(1.05);
+}
+
+img {
+  width: 180px;
+  height: 180px;
 }
